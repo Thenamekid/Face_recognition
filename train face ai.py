@@ -3,7 +3,7 @@ import face_recognition
 import numpy as np
 
 # Path to the folder containing your training images
-training_images_folder = "D:\\Virus\\Mega_app\\face recognice\\me"
+training_images_folder = "FOLDER_WHERE_YOUR_TRAINING_IMGS_ARE"
 
 # List all image files in the folder
 image_files = [file for file in os.listdir(training_images_folder) if file.lower().endswith(('.jpg', '.jpeg', '.png'))]
